@@ -5,25 +5,25 @@
         "title":"Laptop Resale Market",
         "rating": 100,
         "img":"laptop-bazar-83d41.web.app_.png",
-        "website":"laptop-bazar-83d41.web.app"
+        "website":"https://laptop-bazar-83d41.web.app/"
 
     },
     {
         "id":2,
         "stack":"MERN Stack",
-        "title":"Laptop Resale Market",
+        "title":"Programming School",
         "rating": 95,
-        "img":"laptop-bazar-83d41.web.app_.png",
-        "website":"laptop-bazar-83d41.web.app"
+        "img":"assignment-10-auth-5c84b.web.app_courses.png",
+        "website":"https://assignment-10-auth-5c84b.web.app/"
 
     },
     {
         "id":3,
         "stack":"MERN Stack",
-        "title":"Laptop Resale Market",
+        "title":"Doctors Services",
         "rating": 80,
-        "img":"laptop-bazar-83d41.web.app_.png",
-        "website":"laptop-bazar-83d41.web.app"
+        "img":"doc-service-949fd.web.app_.png",
+        "website":"https://doc-service-949fd.web.app_.png"
 
-    },
+    }
 ]

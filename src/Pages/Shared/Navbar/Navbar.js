@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import SrabonImg from "../../../assets/srabon.jpg";
 
 
 const Navbar = () => {
