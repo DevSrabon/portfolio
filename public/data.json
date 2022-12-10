@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "stack":"MERN Stack",
+        "title":"Laptop Resale Market",
+        "rating": 100,
+        "img":"laptop-bazar-83d41.web.app_.png",
+        "website":"laptop-bazar-83d41.web.app"
+
+    },
+    {
+        "id":2,
+        "stack":"MERN Stack",
+        "title":"Laptop Resale Market",
+        "rating": 95,
+        "img":"laptop-bazar-83d41.web.app_.png",
+        "website":"laptop-bazar-83d41.web.app"
+
+    },
+    {
+        "id":3,
+        "stack":"MERN Stack",
+        "title":"Laptop Resale Market",
+        "rating": 80,
+        "img":"laptop-bazar-83d41.web.app_.png",
+        "website":"laptop-bazar-83d41.web.app"
+
+    },
+]
