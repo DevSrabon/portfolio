@@ -17,7 +17,7 @@ const Navbar = () => {
 		</React.Fragment>
 	);
 	return (
-		<nav className="navbar bg-base-100 flex justify-between">
+	<nav className="navbar bg-base-100 flex justify-between">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label
@@ -54,7 +54,7 @@ const Navbar = () => {
 			<div className="navbar-end hidden  font-bold lg:flex">
 				<ul className="menu menu-horizontal p-0 text-slate-400">{menuItems}</ul>
 			</div>
-		</nav>
+		</nav>	
 	);
 };
 

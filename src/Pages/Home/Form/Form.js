@@ -2,8 +2,14 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div className="my-5 lg:my-20 flex  flex-col gap-5 justify-center items-center p-10">
-            <h2 className='text-3xl text-orange-300'>Contact With me</h2>
+			<div
+				data-aos="fade-up"
+				data-aos-easing="linear"
+				data-aos-duration="1000
+			"
+				data-aos-delay="50"
+				className="my-5 lg:my-20 flex  flex-col gap-5 justify-center items-center p-10 w-full">
+				<h2 className="text-3xl text-orange-300">Contact With me</h2>
 				<form
 					className="flex flex-col gap-5  w-[400px]"
 					action="https://formsubmit.co/et.srabon@gmail.com"
