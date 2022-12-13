@@ -3,8 +3,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import './Projects.css'
 const Project = ({ advertise }) => {
-    console.log(advertise);
-    const { img, rating, stack, title, website } = advertise;
+    const { img, rating, stack, title, website,id } = advertise;
 	return (
 		<div
 			data-aos="fade-down"
@@ -29,7 +28,7 @@ const Project = ({ advertise }) => {
 					<a href={website}>
 						<button className="btn btn-outline">Live</button>
 					</a>
-					<Link to="/detail">
+					<Link to={`/${id}`}>
 						<button className="btn btn-outline">More Details</button>
 					</Link>
 				</div>

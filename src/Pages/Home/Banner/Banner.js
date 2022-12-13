@@ -5,8 +5,8 @@ import { Player} from "@lottiefiles/react-lottie-player";
 const Banner = () => {
 
     return (
-			<div className="hero">
-				<div className="hero-content grid sm:grid-cols-1 md:grid-cols-2 gap-10 ">
+			<div className="hero " id="/">
+				<div className="hero-content flex-col lg:flex-row-reverse pt-16 lg:gap-20 ">
 					<div
 						data-aos="fade-right"
 						data-aos-easing="linear"
@@ -47,7 +47,8 @@ const Banner = () => {
 							<a
 								className="btn btn-outline mt-4 "
 								href="Resume of Srabon.pdf"
-								download="Resume of Srabon.pdf">
+								download="Resume of Srabon.pdf"
+								id="resume">
 								Download Resume
 							</a>
 						</div>

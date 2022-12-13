@@ -2,7 +2,7 @@ import React from 'react';
 import SrabonImg from '../../../assets/srabon.jpg'
 const About = () => {
     return (
-			<div className="hero mt-20">
+			<div className="hero mt-20" id='about'>
 				<div className="hero-content flex-col lg:flex-row lg:gap-20 ">
 					<img
 						data-aos="fade-right"

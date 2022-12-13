@@ -5,12 +5,12 @@ import Project from './Project';
 const Projects = () => {
    	const [advertises, setAdvertises] = useState([]);
 		useEffect(() => {
-			fetch('data.json')
+			fetch("data.json")
 				.then((res) => res.json())
 				.then((data) => {
 					setAdvertises(data);
 				});
-        }, []);
+		}, []);
     
     return (
 			<>

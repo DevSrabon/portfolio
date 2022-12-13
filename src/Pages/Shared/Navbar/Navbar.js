@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 
 const Navbar = () => {
@@ -9,16 +9,40 @@ const Navbar = () => {
 	const menuItems = (
 		<React.Fragment>
 			<li>
-				<Link to="/">Home</Link>
+				<Link to="/" spy={true} smooth={true} offset={-100} duration={500}>
+					Home
+				</Link>
 			</li>
 			<li>
-				<a href="Resume of Srabon.pdf" download="Resume of Srabon.pdf">Resume</a>
+				<Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
+					About
+				</Link>
 			</li>
+			<li>
+				<Link
+					to="contact"
+					spy={true}
+					smooth={true}
+					offset={-100}
+					duration={500}>
+					Contact
+				</Link>
+			</li>
+			<li>
+				<Link to="resume" spy={true} smooth={true} offset={-100} duration={500}>
+					Resume
+				</Link>
+			</li>
+			{/* <li>
+				<a href="Resume of Srabon.pdf" download="Resume of Srabon.pdf">
+					Resume
+				</a>
+			</li> */}
 		</React.Fragment>
 	);
 	return (
-	<nav className="navbar bg-base-100 flex justify-between">
-			<div className="navbar-start">
+		<nav className="fixed bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-md  z-100 w-full px-5 py-2 flex justify-between items-center right-0">
+			<div className="navbar-start flex">
 				<div className="dropdown">
 					<label
 						onClick={() => setIsOpen(!isOpen)}
@@ -54,7 +78,7 @@ const Navbar = () => {
 			<div className="navbar-end hidden  font-bold lg:flex">
 				<ul className="menu menu-horizontal p-0 text-slate-400">{menuItems}</ul>
 			</div>
-		</nav>	
+		</nav>
 	);
 };
 

@@ -8,7 +8,7 @@ const Form = () => {
 				data-aos-duration="1000
 			"
 				data-aos-delay="50"
-				className="my-5 lg:my-20 flex  flex-col gap-5 justify-center items-center p-10 w-full">
+				className="my-5 lg:my-20 flex  flex-col gap-5 justify-center items-center p-10 w-full" id='contact'>
 				<h2 className="text-3xl text-orange-300">Contact With me</h2>
 				<form
 					className="flex flex-col gap-5  w-[400px]"
