@@ -41,7 +41,7 @@ const Navbar = () => {
 		</React.Fragment>
 	);
 	return (
-		<nav className="fixed bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-md  z-100 w-full px-5 py-2 flex justify-between items-center right-0">
+		<nav className="fixed bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-md  z-50 w-full px-5 py-2 flex justify-between items-center right-0">
 			<div className="navbar-start flex">
 				<div className="dropdown">
 					<label
