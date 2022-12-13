@@ -24,10 +24,8 @@ const Project = ({ advertise }) => {
 					</p>
 					<p>{stack}</p>
 				</div>
-				<div className="card-actions justify-between">
-					<a href={website}>
-						<button className="btn btn-outline">Live</button>
-					</a>
+				<div className="card-actions justify-end">
+					
 					<Link to={`/${id}`}>
 						<button className="btn btn-outline">More Details</button>
 					</Link>

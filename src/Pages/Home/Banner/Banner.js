@@ -23,7 +23,7 @@ const Banner = () => {
 						<h1 className="lg:text-4xl text-2xl font-bold">
 							Hi, I' <span className="text-orange-400">SRABON BARUA</span>
 							<div className="flex gap-3 justify-center mt-2">
-								I'm a
+								a
 								<span className="text-orange-400 ">
 									<Typewriter
 										options={{

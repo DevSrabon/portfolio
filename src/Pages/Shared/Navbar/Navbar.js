@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 
-
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -9,9 +8,9 @@ const Navbar = () => {
 	const menuItems = (
 		<React.Fragment>
 			<li>
-				<Link to="/" spy={true} smooth={true} offset={-100} duration={500}>
+				<a href="/" spy={true} smooth={true} offset={-100} duration={500}>
 					Home
-				</Link>
+				</a>
 			</li>
 			<li>
 				<Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
@@ -33,11 +32,6 @@ const Navbar = () => {
 					Resume
 				</Link>
 			</li>
-			{/* <li>
-				<a href="Resume of Srabon.pdf" download="Resume of Srabon.pdf">
-					Resume
-				</a>
-			</li> */}
 		</React.Fragment>
 	);
 	return (
@@ -69,11 +63,11 @@ const Navbar = () => {
 						</ul>
 					)}
 				</div>
-				<Link
-					to="/"
+				<a
+					href="/"
 					className="btn btn-ghost normal-case text-slate-400 text-3xl">
 					PORTFOLIO
-				</Link>
+				</a>
 			</div>
 			<div className="navbar-end hidden  font-bold lg:flex">
 				<ul className="menu menu-horizontal p-0 text-slate-400">{menuItems}</ul>
