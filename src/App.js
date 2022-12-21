@@ -5,8 +5,13 @@ import { router } from './Routes/Routes';
 
 function App() {
   return (
-		<div className="max-w-[90%] mx-auto">
-			<RouterProvider router={router}></RouterProvider>
+		<div className="App">
+			<div id="stars"></div>
+			<div id="stars2"></div>
+			<div id="stars3"></div>
+			<div className="max-w-[90%] mx-auto">
+				<RouterProvider router={router}></RouterProvider>
+			</div>
 		</div>
 	);
 }

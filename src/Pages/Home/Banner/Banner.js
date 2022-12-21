@@ -1,6 +1,8 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 import { Player} from "@lottiefiles/react-lottie-player";
+import { FaFacebookF, FaLinkedin } from 'react-icons/fa';
+import { AiFillGithub } from 'react-icons/ai';
 
 const Banner = () => {
 
@@ -21,7 +23,7 @@ const Banner = () => {
 						data-aos-easing="linear"
 						data-aos-duration="1000">
 						<h1 className="lg:text-4xl text-2xl font-bold">
-							Hi, I' <span className="text-orange-400">SRABON BARUA</span>
+							Hi, I'm <span className="text-orange-400">SRABON BARUA</span>
 							<div className="flex gap-3 justify-center mt-2">
 								a
 								<span className="text-orange-400 ">
@@ -51,6 +53,17 @@ const Banner = () => {
 								id="resume">
 								Download Resume
 							</a>
+							<div className="grid grid-flow-col gap-4 mt-5 w-10 ">
+								<a href="https://www.linkedin.com/in/srabon-barua/">
+									<FaFacebookF className="w-7 h-7 hover:scale-[1.5]" />
+								</a>
+								<a href="https://github.com/DevSrabon">
+									<AiFillGithub className="w-7 h-7 hover:scale-[1.5]" />
+								</a>
+								<a href="https://www.facebook.com/srabon.barca/">
+									<FaLinkedin className="w-7 h-7 hover:scale-[1.5]" />
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -14,15 +14,15 @@ const Footer = () => {
 					</Link>
 				</div>
 				<div>
-					<div className="grid grid-flow-col gap-4">
+					<div className="grid grid-flow-col gap-4 mt-5 ">
 						<a href="https://www.linkedin.com/in/srabon-barua/">
-							<FaFacebookF className="w-7 h-7 hover:text-blue-700" />
+							<FaFacebookF className="w-7 h-7 hover:scale-[1.5]" />
 						</a>
 						<a href="https://github.com/DevSrabon">
-							<AiFillGithub className="w-7 h-7 hover:text-blue-700" />
+							<AiFillGithub className="w-7 h-7 hover:scale-[1.5]" />
 						</a>
 						<a href="https://www.facebook.com/srabon.barca/">
-							<FaLinkedin className="w-7 h-7 hover:text-blue-700" />
+							<FaLinkedin className="w-7 h-7 hover:scale-[1.5]" />
 						</a>
 					</div>
 				</div>

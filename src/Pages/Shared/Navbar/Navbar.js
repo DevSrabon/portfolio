@@ -28,6 +28,16 @@ const Navbar = () => {
 				</Link>
 			</li>
 			<li>
+				<a
+					href="blogs"
+					spy={true}
+					smooth={true}
+					offset={-100}
+					duration={500}>
+					Blogs
+				</a>
+			</li>
+			<li>
 				<Link to="resume" spy={true} smooth={true} offset={-100} duration={500}>
 					Resume
 				</Link>
@@ -35,7 +45,7 @@ const Navbar = () => {
 		</React.Fragment>
 	);
 	return (
-		<nav className="fixed bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-md  z-50 w-full px-5 py-2 flex justify-between items-center right-0">
+		<nav className="fixed bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-md  z-50 w-full px-6 py-3 flex justify-between items-center right-0 top-0">
 			<div className="navbar-start flex">
 				<div className="dropdown">
 					<label
@@ -66,7 +76,7 @@ const Navbar = () => {
 				<a
 					href="/"
 					className="btn btn-ghost normal-case text-slate-400 text-3xl">
-					PORTFOLIO
+					SRABON
 				</a>
 			</div>
 			<div className="navbar-end hidden  font-bold lg:flex">
